@@ -4,12 +4,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Super-Spork</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
-    
-    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <!-- <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.1"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"> </script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+    <h1> Instrument recognition </h1>
+    <h2> Banjo or violin ? </h2>
+    <h3> Description of the application : </h3>
+    <p> This application has been designed for children aged 4 to 7 years old who would like to learn about music and instruments. </p>
+    <p> The application shows whether the children are able to recognise the instruments. </p>
+    <p> This application could be useful for teachers in primary schools or in music schools for an introduction to instruments. </p>
+    <p> In our example we will focus on the banjo and the violin, this application can be extended to all instruments. </p>
+
+    <h2>Image classification using MobileNet and p5.js</h2>
     <script src="sketch.js"></script>
 </body>
 </html>
